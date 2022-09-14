@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main(1) - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPA005.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main(1).pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\贪吃蛇\贪吃蛇 - 副本\VC6.0下实现代码\main(1).cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPA005.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPA006.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main(1).pdb" /debug /machine:I386 /out:"Debug/main(1).exe" /pdbtype:sept 
+".\Debug\main(1).obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPA006.tmp"
+<h3>Output Window</h3>
+Compiling...
+main(1).cpp
+c:\users\lenovo\desktop\贪吃蛇\贪吃蛇 - 副本\vc6.0下实现代码\main(1).cpp(185) : warning C4715: 'direction' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+main(1).exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
